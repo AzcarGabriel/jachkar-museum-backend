@@ -1,0 +1,116 @@
+30-03-2022 15:58:48
+
+C:/Users/Startnet/Documents/repositorios/github/jachkar-museum-asset-bundle-creator/Assets/Models
+Num assets: 4 
+Assets/Models/demoPrefab.prefab 
+Assets/Models/Stone01.prefab 
+	----X----
+05-04-2022 12:22:13
+
+C:/Users/Startnet/Documents/repositorios/github/jachkar-museum-asset-bundle-creator/Assets/StoneModels
+Num assets: 94 
+Assets/Models/Stone01.prefab 
+Assets/Models/Stone02.prefab 
+Assets/Models/Stone03.prefab 
+Assets/Models/Stone04.prefab 
+Assets/Models/Stone05.prefab 
+Assets/Models/Stone06.prefab 
+Assets/Models/Stone07.prefab 
+Assets/Models/Stone08.prefab 
+Assets/Models/Stone09.prefab 
+Assets/Models/Stone10.prefab 
+Assets/Models/Stone11.prefab 
+Assets/Models/Stone12.prefab 
+Assets/Models/Stone13.prefab 
+Assets/Models/Stone14.prefab 
+Assets/Models/Stone15.prefab 
+Assets/Models/Stone16.prefab 
+Assets/Models/Stone17.prefab 
+Assets/Models/Stone18.prefab 
+Assets/Models/Stone19.prefab 
+Assets/Models/Stone20.prefab 
+Assets/Models/Stone21.prefab 
+Assets/Models/Stone22.prefab 
+Assets/Models/Stone23.prefab 
+Assets/Models/Stone24.prefab 
+Assets/Models/Stone25.prefab 
+Assets/Models/Stone26.prefab 
+Assets/Models/Stone27.prefab 
+Assets/Models/Stone28.prefab 
+Assets/Models/Stone29.prefab 
+Assets/Models/Stone30.prefab 
+Assets/Models/Stone31.prefab 
+Assets/Models/Stone32.prefab 
+Assets/Models/Stone33.prefab 
+Assets/Models/Stone34.prefab 
+Assets/Models/Stone35.prefab 
+Assets/Models/Stone36.prefab 
+Assets/Models/Stone37.prefab 
+Assets/Models/Stone38.prefab 
+Assets/Models/Stone39.prefab 
+Assets/Models/Stone40.prefab 
+Assets/Models/Stone41.prefab 
+Assets/Models/Stone42.prefab 
+Assets/Models/Stone43.prefab 
+Assets/Models/Stone44.prefab 
+Assets/Models/Stone45.prefab 
+Assets/Models/Stone46.prefab 
+Assets/Models/Stone47.prefab 
+	----X----
+05-04-2022 12:25:14
+
+C:/Users/Startnet/Documents/repositorios/github/jachkar-museum-asset-bundle-creator/Assets/StoneModels
+Num assets: 0 
+	----X----
+05-04-2022 12:28:20
+
+C:/Users/Startnet/Documents/repositorios/github/jachkar-museum-asset-bundle-creator/Assets/Models
+Num assets: 94 
+Assets/Models/Stone01.prefab 
+Assets/Models/Stone02.prefab 
+Assets/Models/Stone03.prefab 
+Assets/Models/Stone04.prefab 
+Assets/Models/Stone05.prefab 
+Assets/Models/Stone06.prefab 
+Assets/Models/Stone07.prefab 
+Assets/Models/Stone08.prefab 
+Assets/Models/Stone09.prefab 
+Assets/Models/Stone10.prefab 
+Assets/Models/Stone11.prefab 
+Assets/Models/Stone12.prefab 
+Assets/Models/Stone13.prefab 
+Assets/Models/Stone14.prefab 
+Assets/Models/Stone15.prefab 
+Assets/Models/Stone16.prefab 
+Assets/Models/Stone17.prefab 
+Assets/Models/Stone18.prefab 
+Assets/Models/Stone19.prefab 
+Assets/Models/Stone20.prefab 
+Assets/Models/Stone21.prefab 
+Assets/Models/Stone22.prefab 
+Assets/Models/Stone23.prefab 
+Assets/Models/Stone24.prefab 
+Assets/Models/Stone25.prefab 
+Assets/Models/Stone26.prefab 
+Assets/Models/Stone27.prefab 
+Assets/Models/Stone28.prefab 
+Assets/Models/Stone29.prefab 
+Assets/Models/Stone30.prefab 
+Assets/Models/Stone31.prefab 
+Assets/Models/Stone32.prefab 
+Assets/Models/Stone33.prefab 
+Assets/Models/Stone34.prefab 
+Assets/Models/Stone35.prefab 
+Assets/Models/Stone36.prefab 
+Assets/Models/Stone37.prefab 
+Assets/Models/Stone38.prefab 
+Assets/Models/Stone39.prefab 
+Assets/Models/Stone40.prefab 
+Assets/Models/Stone41.prefab 
+Assets/Models/Stone42.prefab 
+Assets/Models/Stone43.prefab 
+Assets/Models/Stone44.prefab 
+Assets/Models/Stone45.prefab 
+Assets/Models/Stone46.prefab 
+Assets/Models/Stone47.prefab 
+	----X----

@@ -1,0 +1,1021 @@
+[LicensingClient] Channel doesn't exist: "LicenseClient-Startnet"
+[Licensing::Module] Successfully launched the LicensingClient (PId: 20020)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Startnet" (connect: 1.23s, validation: 0.12s, handshake: 1.55s)
+[Licensing::Module] Connected to LicensingClient (PId: 20020, launch time: 0.00, total connection time: 2.90s)
+Entitlement-based licensing initiated
+[LicensingClient] Licenses updated successfully
+
+LICENSE SYSTEM [202245 12:28:8] Next license update check is after 2022-03-19T02:37:09
+
+
+LICENSE SYSTEM [202245 12:28:8] Machine binding 1 mismatch: (value of current machine) 00330-80203-21404-AA450 != 00330-80203-21404-AA707 (value in license file). Reason might be there is a hardware change on this machine after the license was activated.
+
+
+LICENSE SYSTEM [202245 12:28:8] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'es' Physical Memory: 16222 MB
+[Licensing::Module] Serial number assigned to: "F4-VQA6-SFG6-GYT6-M2CW-XXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 59593 was selected
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+.
+-executeMethod
+BuildAssets.BuildAssetBundle
+-logFile
+Logs/BuildAssetBundle_log.txt
+Successfully changed project path to: C:/Users/Startnet/Documents/repositorios/github/jachkar-museum-asset-bundle-creator
+C:/Users/Startnet/Documents/repositorios/github/jachkar-museum-asset-bundle-creator
+Using Asset Import Pipeline V2.
+[Package Manager] Restoring resolved packages state from cache
+[Package Manager] Done checking package constraints in 0.00s seconds
+[Package Manager] 
+Registered 44 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@1.15.15 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.collab-proxy@1.15.15)
+    com.unity.ide.rider@2.0.7 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.ide.rider@2.0.7)
+    com.unity.ide.visualstudio@2.0.14 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.ide.visualstudio@2.0.14)
+    com.unity.ide.vscode@1.2.5 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.test-framework@1.1.31 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.test-framework@1.1.31)
+    com.unity.textmeshpro@3.0.6 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.textmeshpro@3.0.6)
+    com.unity.timeline@1.4.8 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.timeline@1.4.8)
+    com.unity.ext.nunit@1.0.6 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+    com.unity.services.core@1.0.1 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.services.core@1.0.1)
+  Built-in packages:
+    com.unity.ugui@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+    com.unity.modules.uielementsnative@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0)
+  Git packages:
+    com.unity.assetbundlebrowser@https://github.com/Unity-Technologies/AssetBundles-Browser.git (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.assetbundlebrowser@b7c279278d)
+
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.45s seconds
+Refreshing native plugins compatible for Editor in 65.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Startnet/Documents/repositorios/github/jachkar-museum-asset-bundle-creator/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007797 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1350ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1044ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (469ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.001710 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.001520 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+Start importing Assets/Editor/BuildAssetBundle.cs using Guid(eeccbbfa4e8926c479e968edfff14fd7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ee2808e11af5211222afa72cd291acaf') in 0.023030 seconds 
+Registering precompiled user dll's ...
+Registered in 0.005923 seconds.
+- Starting script compilation
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Deleting stamp file at Library/ScriptAssemblies/BuiltinAssemblies.stamp
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll in 1,340853 seconds
+- Finished script compilation in 1,395016 seconds
+AssetDatabase: script compilation time: 1.538008s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.483 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1485ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1160ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 4349.640ms
+	InvokeBeforeRefreshCallbacks: 0.890ms
+	ApplyChangesToAssetFolders: 0.072ms
+	Scan: 152.050ms
+	OnSourceAssetsModified: 2.055ms
+	InitializeImportedAssetsSnapshot: 0.370ms
+	GetAllGuidsForCategorization: 0.495ms
+	CategorizeAssets: 58.122ms
+	ImportAndPostprocessOutOfDateAssets: 4113.209ms (2442.976ms without children)
+		ImportManagerImport: 25.869ms (1.676ms without children)
+			ImportInProcess: 24.136ms
+			UpdateCategorizedAssets: 0.057ms
+		CompileScripts: 1538.660ms
+		PostProcessAllAssets: 97.738ms
+		ReloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.293ms
+		InitializingProgressBar: 0.004ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.286ms
+		RestoreLoadedAssetsState: 0.070ms
+	UpdateImportedAssetsSnapshot: 7.311ms
+	ReloadSourceAssets: 0.243ms
+	UnloadImportedAssets: 0.003ms
+	Hotreload: 1.410ms
+	FixTempGuids: 0.003ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.380ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.326ms
+	GetLoadedSourceAssetsSnapshot: 0.735ms
+	PersistCurrentRevisions: 0.682ms
+	UnloadStreamsEnd: 11.729ms
+	GenerateScriptTypeHashes: 0.261ms
+	Untracked: 6.866ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Refresh completed in 0.053771 seconds.
+RefreshInfo: RefreshV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 53.742ms
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 9.479ms
+Refresh completed in 0.075560 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 75.533ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Initializing Unity extensions:
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.1 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2002.
+Total: 5.334000 ms (FindLiveObjects: 0.137400 ms CreateObjectMapping: 0.054400 ms MarkObjects: 4.442900 ms  DeleteObjects: 0.697900 ms)
+
+ProgressiveSceneManager::Cancel()
+PROCESS BUILD ASSET BUNDLE BEGINS -------------------------------------------------------
+Start importing Packages/com.unity.assetbundlebrowser/Editor/Icons/ABundleBrowserIconY1756Basic.png using Guid(e0af1b5107fe5c2428026d9f032c64c0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5c2987d92e6e2ac6c302904ba170bd3d') in 0.053221 seconds 
+Start importing Packages/com.unity.assetbundlebrowser/Documentation/images/ABundleBrowserIconY1756Basic.png using Guid(521ac7d05d42f41408ec95eaedef87cd) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '882696947e765bdd9748e4b7318f84b5') in 0.020906 seconds 
+Start importing Packages/com.unity.assetbundlebrowser/Documentation/images/ABundleBrowserIconY1756Scene.png using Guid(63255dcf53aebf34a8b1162ee502ebe1) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c43c093f4dd6edf74ed710dcc96c854c') in 0.032921 seconds 
+Start importing Packages/com.unity.assetbundlebrowser/Documentation/images/browser_configure2.png using Guid(e3aa429e1ebaddb41ad13211560ea5e8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '71d9e25da4a1a21e2b03192549f8c238') in 0.254380 seconds 
+Start importing Packages/com.unity.assetbundlebrowser/Documentation/images/browser_header.png using Guid(18223d49715730347b997e6682fe49e5) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3ea8b5861f8389af016922c35d96c1ea') in 0.036946 seconds 
+Start importing Packages/com.unity.assetbundlebrowser/Editor/Icons/ABundleBrowserIconY1756Scene.png using Guid(2c52be92045472a4bb2d2fa348b08d6d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '97f23ecc951b8954124bd238bf45d6ec') in 0.019858 seconds 
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed in 3.160122 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 3160.097ms
+	InvokeBeforeRefreshCallbacks: 0.000ms
+	ApplyChangesToAssetFolders: 0.087ms
+	Scan: 9.033ms
+	OnSourceAssetsModified: 0.000ms
+	InitializeImportedAssetsSnapshot: 9.020ms
+	GetAllGuidsForCategorization: 0.441ms
+	CategorizeAssets: 41.106ms
+	ImportAndPostprocessOutOfDateAssets: 3069.301ms (1.392ms without children)
+		ImportManagerImport: 427.005ms (2.345ms without children)
+			ImportInProcess: 424.581ms
+			UpdateCategorizedAssets: 0.079ms
+		PostProcessAllAssets: 2634.993ms
+		ReloadImportedAssets: 0.046ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.441ms
+		InitializingProgressBar: 0.003ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.282ms
+		OnDemandSchedulerStart: 0.497ms
+		RestoreLoadedAssetsState: 1.165ms
+	UpdateImportedAssetsSnapshot: 3.477ms
+	ReloadSourceAssets: 0.422ms
+	UnloadImportedAssets: 0.252ms
+	Hotreload: 1.755ms
+	FixTempGuids: 0.007ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.137ms
+	UnloadStreamsBegin: 0.256ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.238ms
+	GetLoadedSourceAssetsSnapshot: 3.228ms
+	PersistCurrentRevisions: 2.306ms
+	UnloadStreamsEnd: 4.332ms
+	Untracked: 17.175ms
+Refresh completed in 0.059238 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 59.220ms
+Refresh completed in 0.056402 seconds.
+RefreshInfo: RefreshV2() scanfilter: 
+RefreshProfiler: Total: 56.361ms
+BuildPlayerGenerator: Succeeded
+[ScriptCompilation] Recompiling all scripts because: Recompiling scripts for player build.
+BuildPlayer: start building target 20
+- Starting script compilation
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll
+- Starting compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll in 4,537822 seconds
+- Finished compile Library/PlayerScriptAssemblies/UnityEngine.UI.dll in 4,705376 seconds
+- Starting compile Library/PlayerScriptAssemblies/Unity.Timeline.dll
+- Starting compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll
+- Finished compile Library/PlayerScriptAssemblies/Unity.Timeline.dll in 1,16964 seconds
+- Finished compile Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll in 1,686399 seconds
+- Finished script compilation in 6,459598 seconds
+BuildPlayerGenerator: Succeeded
+Script attached to 'Stone26' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone02' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone19' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone09' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone15' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone38' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone13' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone35' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone12' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone13' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone25' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone33' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone34' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Compiling shader "Standard" pass "FORWARD" (vp)
+    16 variants, prepared in 0.00 seconds, starting stripping...
+    finished in 0.00 seconds. 16 variants left
+    starting compilation...
+    finished in 0.02 seconds. Local cache hits 16 (0.13s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time)
+Compiling shader "Standard" pass "FORWARD_DELTA" (vp)
+    26 variants, prepared in 0.00 seconds, starting stripping...
+    finished in 0.00 seconds. 26 variants left
+    starting compilation...
+    finished in 0.03 seconds. Local cache hits 26 (0.21s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time)
+Compiling shader "Standard" pass "ShadowCaster" (vp)
+    4 variants, prepared in 0.00 seconds, starting stripping...
+    finished in 0.00 seconds. 4 variants left
+    starting compilation...
+    finished in 0.00 seconds. Local cache hits 4 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time)
+Compiling shader "Standard" pass "DEFERRED" (vp)
+    8 variants, prepared in 0.00 seconds, starting stripping...
+    finished in 0.00 seconds. 8 variants left
+    starting compilation...
+    finished in 0.01 seconds. Local cache hits 8 (0.04s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time)
+Compiling shader "Standard" pass "FORWARD" (vp)
+    16 variants, prepared in 0.00 seconds, starting stripping...
+    finished in 0.00 seconds. 16 variants left
+    starting compilation...
+    finished in 0.02 seconds. Local cache hits 16 (0.13s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time)
+Compiling shader "Standard" pass "FORWARD_DELTA" (vp)
+    20 variants, prepared in 0.00 seconds, starting stripping...
+    finished in 0.00 seconds. 20 variants left
+    starting compilation...
+    finished in 0.02 seconds. Local cache hits 20 (0.12s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time)
+Compiling shader "Standard" pass "ShadowCaster" (vp)
+    4 variants, prepared in 0.00 seconds, starting stripping...
+    finished in 0.00 seconds. 4 variants left
+    starting compilation...
+    finished in 0.00 seconds. Local cache hits 4 (0.01s CPU time), remote cache hits 0 (0.00s CPU time), compiled 0 variants (0.00s CPU time)
+Serialized binary data for shader Standard in 0.00s
+    gles (total internal programs: 47, unique: 39)
+    gles3 (total internal programs: 47, unique: 39)
+Script attached to 'Stone20' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone15' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone39' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone40' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone31' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone21' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone22' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone22' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone10' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone17' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone37' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone19' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone23' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone14' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone32' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone10' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone20' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone25' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone24' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone14' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone09' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone28' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone17' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone29' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone23' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone30' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone28' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone16' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone36' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone12' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone11' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone16' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone27' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone21' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone24' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone11' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone03' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone06' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone05' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone07' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone29' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone01' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone27' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+Script attached to 'Stone26' in scene '' is missing or no valid script is attached.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget)
+UnityEditor.BuildPipeline:BuildAssetBundles (string,UnityEditor.AssetBundleBuild[],UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)
+BuildAssets:BuildAssetBundle () (at Assets/Editor/BuildAssetBundle.cs:54)
+
+[Assets/Editor/BuildAssetBundle.cs line 54]
+
+
+***Player size statistics***
+Total compressed size 11.7 MB. Total uncompressed size 21.8 MB.
+Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.3 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 918 unused Assets to reduce memory usage. Loaded Objects now: 2044.
+Total: 11.393700 ms (FindLiveObjects: 0.229800 ms CreateObjectMapping: 0.101100 ms MarkObjects: 9.303600 ms  DeleteObjects: 1.740600 ms)
+
+
+***Player size statistics***
+Total compressed size 1.5 KB. Total uncompressed size 4.2 KB.
+Start importing Assets/AssetBundles/AssetBundles using Guid(538e0233acd64444e91070e5fa80d363) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7d70619824912db86c8d2656686cf7aa') in 0.013343 seconds 
+Start importing Assets/AssetBundles/bundle using Guid(abbbc7e2d9aaf6d41866ba4afa6f815a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7b7912b403a6f5c3e224e9be84ca02f9') in 0.010360 seconds 
+Start importing Assets/AssetBundles/AssetBundles.manifest using Guid(f241af6e0beeea94db0040f6f1374acd) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e2912366ab507c828385899c6fa9cdaa') in 0.020162 seconds 
+Start importing Assets/AssetBundles/bundle.manifest using Guid(56bb17bf634148f43832c05b46fbe405) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '371c1c148f762c51b992b2b08d21b252') in 0.020325 seconds 
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed in 0.533561 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 533.541ms
+	InvokeBeforeRefreshCallbacks: 0.000ms
+	ApplyChangesToAssetFolders: 0.077ms
+	Scan: 34.667ms
+	OnSourceAssetsModified: 1.009ms
+	InitializeImportedAssetsSnapshot: 7.487ms
+	GetAllGuidsForCategorization: 0.340ms
+	CategorizeAssets: 48.638ms
+	ImportAndPostprocessOutOfDateAssets: 409.070ms (2.860ms without children)
+		ImportManagerImport: 69.627ms (1.587ms without children)
+			ImportInProcess: 67.976ms
+			UpdateCategorizedAssets: 0.065ms
+		PostProcessAllAssets: 330.281ms
+		ReloadImportedAssets: 0.046ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.560ms
+		InitializingProgressBar: 0.003ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.377ms
+		OnDemandSchedulerStart: 0.365ms
+		RestoreLoadedAssetsState: 1.220ms
+	UpdateImportedAssetsSnapshot: 3.730ms
+	ReloadSourceAssets: 0.498ms
+	UnloadImportedAssets: 0.283ms
+	Hotreload: 1.392ms
+	FixTempGuids: 0.007ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.146ms
+	UnloadStreamsBegin: 0.085ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.114ms
+	GetLoadedSourceAssetsSnapshot: 3.448ms
+	PersistCurrentRevisions: 1.591ms
+	UnloadStreamsEnd: 4.448ms
+	Untracked: 19.242ms
+Refresh completed in 0.063250 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 63.229ms
+Refresh completed in 0.063900 seconds.
+RefreshInfo: RefreshV2() scanfilter: 
+RefreshProfiler: Total: 63.873ms
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 473 unused Assets to reduce memory usage. Loaded Objects now: 2066.
+Total: 8.702800 ms (FindLiveObjects: 0.259700 ms CreateObjectMapping: 0.122100 ms MarkObjects: 7.931700 ms  DeleteObjects: 0.387600 ms)
+
+
+-------------------------------------------------------------------------------
+Bundle Name: bundle
+Compressed Size:11.7 mb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               2.7 mb	 12.3% 
+Meshes                 18.9 mb	 86.7% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                76.3 kb	 0.3% 
+Other Assets           32.9 kb	 0.1% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           126.4 kb	 0.6% 
+Total User Assets      21.8 mb	 100.0% 
+Complete build size    21.8 mb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 18.9 mb	 86.7% Assets/RawAssets/20210904_114831edited.obj
+ 2.7 mb	 12.3% Assets/RawAssets/texture_1001.png
+ 76.3 kb	 0.3% Resources/unity_builtin_extra
+ 7.0 kb	 0.0% AssetBundle Object
+ 4.6 kb	 0.0% Assets/Models/Stone08.prefab
+ 0.6 kb	 0.0% Assets/Models/Stone06.prefab
+ 0.6 kb	 0.0% Assets/Models/Stone05.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone04.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone29.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone28.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone27.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone26.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone25.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone24.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone23.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone22.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone21.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone20.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone19.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone17.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone16.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone15.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone14.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone13.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone12.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone11.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone10.prefab
+ 0.5 kb	 0.0% Assets/Models/Stone09.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone07.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone03.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone02.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone01.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone47.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone40.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone39.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone38.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone37.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone36.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone35.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone34.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone33.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone32.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone31.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone30.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone46.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone45.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone44.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone43.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone42.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone41.prefab
+ 0.4 kb	 0.0% Assets/Models/Stone18.prefab
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Bundle Name: AssetBundles
+Compressed Size:1.5 kb
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               0.0 kb	 0.0% 
+Meshes                 0.0 kb	 0.0% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                0.0 kb	 0.0% 
+Other Assets           0.2 kb	 4.2% 
+Levels                 0.0 kb	 0.0% 
+Scripts                0.0 kb	 0.0% 
+Included DLLs          0.0 kb	 0.0% 
+File headers           4.0 kb	 95.8% 
+Total User Assets      4.2 kb	 100.0% 
+Complete build size    4.2 kb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 0.1 kb	 2.4% AssetBundle Object
+ 0.1 kb	 1.8% Built-in AssetBundleManifest: AssetBundleManifest
+-------------------------------------------------------------------------------
+Batchmode quit successfully invoked - shutting down!
+[Performance] WinEditorMain                                               :        1 samples, Peak.  3.64 s (1.0x), Avg.  3.64 s, Total. 3.643 s (11.7%)
+[Performance] WinEditorMain.ConfigureCrashHandler                         :        1 samples, Peak.  42.2 us (1.0x), Avg.  42.2 us, Total. 42.20 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                         :        1 samples, Peak.  2.68 ms (1.0x), Avg.  2.68 ms, Total. 2.677 ms (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                  :        1 samples, Peak.   668 us (1.0x), Avg.   668 us, Total. 668.0 us (0.0%)
+[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit               :        1 samples, Peak.   600 ns (1.0x), Avg.   600 ns, Total. 600.0 ns (0.0%)
+[Performance] WinEditorMain.Licensing                                     :        1 samples, Peak.  3.51 s (1.0x), Avg.  3.51 s, Total. 3.505 s (11.3%)
+[Performance] WinEditorMain.InitializeCrashHandler                        :        1 samples, Peak.   133 ms (1.0x), Avg.   133 ms, Total. 133.0 ms (0.4%)
+[Performance] WinEditorMain.CreateApplication                             :        1 samples, Peak.   377 us (1.0x), Avg.   377 us, Total. 376.9 us (0.0%)
+[Performance] Application.InitializeProject                               :        1 samples, Peak.  11.6 s (1.0x), Avg.  11.6 s, Total. 11.61 s (37.4%)
+[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  2.98 ms (1.0x), Avg.  2.98 ms, Total. 2.985 ms (0.0%)
+[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.  9.17 ms (1.0x), Avg.  9.17 ms, Total. 9.167 ms (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  32.2 ms (1.0x), Avg.  32.2 ms, Total. 32.21 ms (0.1%)
+[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.  1.53 s (1.0x), Avg.  1.53 s, Total. 1.527 s (4.9%)
+[Performance] CurlRequestCheck                                            :       25 samples, Peak.   120 us (10.7x), Avg.  11.2 us, Total. 280.5 us (0.0%)
+[Performance] VersionControl.Task.Wait                                    :        1 samples, Peak.  36.6 us (1.0x), Avg.  36.6 us, Total. 36.60 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.  1.21 s (1.0x), Avg.  1.21 s, Total. 1.210 s (3.9%)
+[Performance] Application.GI.Initialize                                   :        1 samples, Peak.  3.79 ms (1.0x), Avg.  3.79 ms, Total. 3.791 ms (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  3.59 ms (1.0x), Avg.  3.59 ms, Total. 3.586 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.  1.37 s (1.0x), Avg.  1.37 s, Total. 1.366 s (4.4%)
+[Performance] RestoreManagedReferences                                    :        2 samples, Peak.   145 ms (2.0x), Avg.  72.6 ms, Total. 145.3 ms (0.5%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        2 samples, Peak.   865 us (1.3x), Avg.   666 us, Total. 1.332 ms (0.0%)
+[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.   165 ms (1.0x), Avg.   165 ms, Total. 165.5 ms (0.5%)
+[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  4.35 s (1.0x), Avg.  4.35 s, Total. 4.352 s (14.0%)
+[Performance] PresetManagerPostProcessor.OnPreprocessAsset                :       11 samples, Peak.   787 us (5.5x), Avg.   142 us, Total. 1.567 ms (0.0%)
+[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset           :       11 samples, Peak.   207 us (5.6x), Avg.  37.2 us, Total. 409.3 us (0.0%)
+[Performance] Compiling Scripts                                           :        1 samples, Peak.  1.54 s (1.0x), Avg.  1.54 s, Total. 1.539 s (5.0%)
+[Performance] AssetDatabase.ImportAssets                                  :        5 samples, Peak.  1.60 us (1.7x), Avg.   940 ns, Total. 4.700 us (0.0%)
+[Performance] AssemblyPostProcessor.OnPostprocessAllAssets                :        3 samples, Peak.   472 us (2.6x), Avg.   181 us, Total. 544.4 us (0.0%)
+[Performance] AssetPostprocessor.OnPostprocessAllAssets                   :        3 samples, Peak.   217 us (2.8x), Avg.  76.2 us, Total. 228.5 us (0.0%)
+[Performance] TMPro_TexturePostProcessor.OnPostprocessAllAssets           :        3 samples, Peak.  19.4 ms (2.5x), Avg.  7.90 ms, Total. 23.69 ms (0.1%)
+[Performance] RetainedMode.OnPostprocessAllAssets                         :        3 samples, Peak.  11.8 ms (1.8x), Avg.  6.70 ms, Total. 20.09 ms (0.1%)
+[Performance] EditorAtlasMonitorInjector.OnPostprocessAllAssets           :        3 samples, Peak.  4.62 ms (2.3x), Avg.  2.01 ms, Total. 6.018 ms (0.0%)
+[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets              :        3 samples, Peak.   500 us (2.8x), Avg.   178 us, Total. 532.6 us (0.0%)
+[Performance] AssetEvents.OnPostprocessAllAssets                          :        6 samples, Peak.   357 us (4.6x), Avg.  77.6 us, Total. 465.5 us (0.0%)
+[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets           :        3 samples, Peak.  2.57 s (2.7x), Avg.   944 ms, Total. 2.831 s (9.1%)
+[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets            :        3 samples, Peak.  80.9 ms (3.0x), Avg.  27.0 ms, Total. 81.05 ms (0.3%)
+[Performance] BuildCatalog                                                :        1 samples, Peak.  79.3 ms (1.0x), Avg.  79.3 ms, Total. 79.35 ms (0.3%)
+[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.  54.0 ms (1.0x), Avg.  54.0 ms, Total. 53.96 ms (0.2%)
+[Performance] AssetDatabase.Refresh                                       :        1 samples, Peak.  53.9 ms (1.0x), Avg.  53.9 ms, Total. 53.89 ms (0.2%)
+[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.   108 ms (1.0x), Avg.   108 ms, Total. 108.4 ms (0.3%)
+[Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.   215 ms (1.0x), Avg.   215 ms, Total. 215.0 ms (0.7%)
+[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.  4.18 ms (1.0x), Avg.  4.18 ms, Total. 4.184 ms (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.  1.51 ms (1.0x), Avg.  1.51 ms, Total. 1.514 ms (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.  78.9 ms (1.0x), Avg.  78.9 ms, Total. 78.87 ms (0.3%)
+[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.   425 ms (1.0x), Avg.   425 ms, Total. 425.1 ms (1.4%)
+[Performance] Gizmo.RebuildRenderers                                      :        2 samples, Peak.   250 ms (2.0x), Avg.   127 ms, Total. 254.0 ms (0.8%)
+[Performance] Gizmo.AddGizmoRenderers                                     :       68 samples, Peak.  2.12 ms (31.3x), Avg.  67.7 us, Total. 4.601 ms (0.0%)
+[Performance] Application.InitializeMenu                                  :        1 samples, Peak.  70.2 ms (1.0x), Avg.  70.2 ms, Total. 70.15 ms (0.2%)
+[Performance] UpdateAllMenus                                              :        1 samples, Peak.  66.6 ms (1.0x), Avg.  66.6 ms, Total. 66.58 ms (0.2%)
+[Performance] Application.editorInitializingProject                       :        1 samples, Peak.  43.5 us (1.0x), Avg.  43.5 us, Total. 43.50 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                     :        1 samples, Peak.  1.20 us (1.0x), Avg.  1.20 us, Total. 1.200 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  79.9 ms (1.0x), Avg.  79.9 ms, Total. 79.88 ms (0.3%)
+[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.  50.6 us (1.0x), Avg.  50.6 us, Total. 50.60 us (0.0%)
+[Performance] BuildAssetBundles                                           :        1 samples, Peak.  15.5 s (1.0x), Avg.  15.5 s, Total. 15.50 s (50.0%)
+[Performance] TextureImporter.Import                                      :        6 samples, Peak.   225 ms (5.0x), Avg.  45.2 ms, Total. 271.2 ms (0.9%)
+[Performance] EditorAtlasMonitorInjector.OnPostprocessTexture             :        6 samples, Peak.   324 us (4.7x), Avg.  69.7 us, Total. 417.9 us (0.0%)
+[Performance] GenerateAssemblyTypeInfos                                   :        2 samples, Peak.  1.30 s (1.4x), Avg.   895 ms, Total. 1.789 s (5.8%)
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,344 @@
+[LicensingClient] Channel doesn't exist: "LicenseClient-Startnet"
+[Licensing::Module] Successfully launched the LicensingClient (PId: 22140)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Startnet" (connect: 1.31s, validation: 0.12s, handshake: 1.92s)
+[Licensing::Module] Connected to LicensingClient (PId: 22140, launch time: 0.00, total connection time: 3.34s)
+Entitlement-based licensing initiated
+[LicensingClient] Licenses updated successfully
+
+LICENSE SYSTEM [2022411 1:9:35] Next license update check is after 2022-03-19T02:37:09
+
+
+LICENSE SYSTEM [2022411 1:9:35] Machine binding 1 mismatch: (value of current machine) 00330-80203-21404-AA450 != 00330-80203-21404-AA707 (value in license file). Reason might be there is a hardware change on this machine after the license was activated.
+
+
+LICENSE SYSTEM [2022411 1:9:35] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'es' Physical Memory: 16222 MB
+[Licensing::Module] Serial number assigned to: "F4-VQA6-SFG6-GYT6-M2CW-XXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 51059 was selected
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+.
+-executeMethod
+BuildStonePrefabs.ProcessPrefabs
+-logFile
+Logs/ProcessPrefabs_log.txt
+Successfully changed project path to: C:/Users/Startnet/Documents/repositorios/github/jachkar-museum-asset-bundle-creator
+C:/Users/Startnet/Documents/repositorios/github/jachkar-museum-asset-bundle-creator
+Using Asset Import Pipeline V2.
+[Package Manager] Restoring resolved packages state from cache
+[Package Manager] Done checking package constraints in 0.00s seconds
+[Package Manager] 
+Registered 44 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@1.15.15 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.collab-proxy@1.15.15)
+    com.unity.ide.rider@2.0.7 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.ide.rider@2.0.7)
+    com.unity.ide.visualstudio@2.0.14 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.ide.visualstudio@2.0.14)
+    com.unity.ide.vscode@1.2.5 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.test-framework@1.1.31 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.test-framework@1.1.31)
+    com.unity.textmeshpro@3.0.6 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.textmeshpro@3.0.6)
+    com.unity.timeline@1.4.8 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.timeline@1.4.8)
+    com.unity.ext.nunit@1.0.6 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+    com.unity.services.core@1.0.1 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.services.core@1.0.1)
+  Built-in packages:
+    com.unity.ugui@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+    com.unity.modules.uielementsnative@1.0.0 (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0)
+  Git packages:
+    com.unity.assetbundlebrowser@https://github.com/Unity-Technologies/AssetBundles-Browser.git (location: C:\Users\Startnet\Documents\repositorios\github\jachkar-museum-asset-bundle-creator\Library\PackageCache\com.unity.assetbundlebrowser@b7c279278d)
+
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.12s seconds
+Refreshing native plugins compatible for Editor in 58.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Startnet/Documents/repositorios/github/jachkar-museum-asset-bundle-creator/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003427 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Domain Reload Profiling:
+	ReloadAssembly (901ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (697ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000790 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000802 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+Start importing Assets/Editor/BuildStonePrefab.cs using Guid(a8e1b20d7c85e9546aad926bda613df6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b78f26f268650e5a75ee2b183756935b') in 0.020089 seconds 
+Registering precompiled user dll's ...
+Registered in 0.004704 seconds.
+[ScriptCompilation] Recompiling all scripts because: InitialRefresh: Cached user assemblies were invalid
+- Starting script compilation
+- Starting compile Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+- Starting compile Library/ScriptAssemblies/UnityEngine.UI.dll
+Deleting stamp file at Library/ScriptAssemblies/BuiltinAssemblies.stamp
+- Finished compile Library/ScriptAssemblies/UnityEngine.TestRunner.dll in 1,019571 seconds
+- Starting compile Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+- Finished compile Library/ScriptAssemblies/UnityEngine.UI.dll in 1,121448 seconds
+- Finished compile Library/ScriptAssemblies/UnityEditor.TestRunner.dll in 0,701336 seconds
+- Starting compile Library/ScriptAssemblies/UnityEditor.UI.dll
+- Finished compile Library/ScriptAssemblies/UnityEditor.UI.dll in 0,497313 seconds
+- Starting compile Library/ScriptAssemblies/Unity.AssetBundleBrowser.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Timeline.dll
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+- Starting compile Library/ScriptAssemblies/Unity.Rider.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.AssetBundleBrowser.Editor.dll in 1,487929 seconds
+- Finished compile Library/ScriptAssemblies/Unity.VSCode.Editor.dll in 2,229916 seconds
+- Finished compile Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll in 2,227369 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Services.Core.Editor.dll in 2,27632 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.dll in 2,2867 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Rider.Editor.dll in 2,207186 seconds
+- Starting compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll in 2,556537 seconds
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll in 3,555633 seconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll in 1,609335 seconds
+- Finished compile Library/ScriptAssemblies/Unity.Timeline.Editor.dll in 2,395806 seconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll in 1,127265 seconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll in 0,424474 seconds
+- Finished script compilation in 7,770826 seconds
+AssetDatabase: script compilation time: 7.969997s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.525 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1526ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1201ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 10635.345ms
+	InvokeBeforeRefreshCallbacks: 0.869ms
+	ApplyChangesToAssetFolders: 0.066ms
+	Scan: 129.036ms
+	OnSourceAssetsModified: 1.599ms
+	InitializeImportedAssetsSnapshot: 0.297ms
+	GetAllGuidsForCategorization: 0.455ms
+	CategorizeAssets: 46.360ms
+	ImportAndPostprocessOutOfDateAssets: 10434.488ms (2337.746ms without children)
+		ImportManagerImport: 23.068ms (1.918ms without children)
+			ImportInProcess: 21.079ms
+			UpdateCategorizedAssets: 0.071ms
+		CompileScripts: 7970.882ms
+		PostProcessAllAssets: 96.543ms
+		ReloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.364ms
+		InitializingProgressBar: 0.004ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.210ms
+		RestoreLoadedAssetsState: 0.155ms
+	UpdateImportedAssetsSnapshot: 5.516ms
+	ReloadSourceAssets: 0.264ms
+	UnloadImportedAssets: 0.003ms
+	Hotreload: 1.637ms
+	FixTempGuids: 0.003ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.390ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.480ms
+	GetLoadedSourceAssetsSnapshot: 0.795ms
+	PersistCurrentRevisions: 0.539ms
+	UnloadStreamsEnd: 12.504ms
+	GenerateScriptTypeHashes: 0.145ms
+	Untracked: 5.562ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Refresh completed in 0.059086 seconds.
+RefreshInfo: RefreshV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 59.061ms
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 9.012ms
+Refresh completed in 0.059359 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 58.933ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Initializing Unity extensions:
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.2 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2003.
+Total: 5.109800 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.122100 ms MarkObjects: 4.192100 ms  DeleteObjects: 0.618900 ms)
+
+ProgressiveSceneManager::Cancel()
+PROCESS PREFABS BEGINS ------------------------------------------------------------------
+Creating 20210904_114831edited
+Start importing Assets/Stone47.prefab using Guid(ed75121ae28c4c44cbbfd9247f2c7b1f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'bc7b4a1d74b33b64a04929ddefb43737') in 0.036193 seconds 
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 106.451ms
+Batchmode quit successfully invoked - shutting down!
+[Performance] WinEditorMain                                               :        1 samples, Peak.  3.96 s (1.0x), Avg.  3.96 s, Total. 3.960 s (18.4%)
+[Performance] WinEditorMain.ConfigureCrashHandler                         :        1 samples, Peak.  44.8 us (1.0x), Avg.  44.8 us, Total. 44.80 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                         :        1 samples, Peak.  2.49 ms (1.0x), Avg.  2.49 ms, Total. 2.492 ms (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                  :        1 samples, Peak.   979 us (1.0x), Avg.   979 us, Total. 979.1 us (0.0%)
+[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit               :        1 samples, Peak.   600 ns (1.0x), Avg.   600 ns, Total. 600.0 ns (0.0%)
+[Performance] WinEditorMain.Licensing                                     :        1 samples, Peak.  3.79 s (1.0x), Avg.  3.79 s, Total. 3.788 s (17.6%)
+[Performance] WinEditorMain.InitializeCrashHandler                        :        1 samples, Peak.   165 ms (1.0x), Avg.   165 ms, Total. 164.8 ms (0.8%)
+[Performance] WinEditorMain.CreateApplication                             :        1 samples, Peak.   515 us (1.0x), Avg.   515 us, Total. 514.8 us (0.0%)
+[Performance] Application.InitializeProject                               :        1 samples, Peak.  17.2 s (1.0x), Avg.  17.2 s, Total. 17.15 s (79.7%)
+[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  3.95 ms (1.0x), Avg.  3.95 ms, Total. 3.946 ms (0.0%)
+[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.  13.9 ms (1.0x), Avg.  13.9 ms, Total. 13.89 ms (0.1%)
+[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  31.6 ms (1.0x), Avg.  31.6 ms, Total. 31.62 ms (0.1%)
+[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.  1.52 s (1.0x), Avg.  1.52 s, Total. 1.515 s (7.0%)
+[Performance] CurlRequestCheck                                            :       25 samples, Peak.   112 us (8.5x), Avg.  13.2 us, Total. 329.5 us (0.0%)
+[Performance] VersionControl.Task.Wait                                    :        1 samples, Peak.  32.1 us (1.0x), Avg.  32.1 us, Total. 32.10 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.  1.16 s (1.0x), Avg.  1.16 s, Total. 1.161 s (5.4%)
+[Performance] Application.GI.Initialize                                   :        1 samples, Peak.  2.85 ms (1.0x), Avg.  2.85 ms, Total. 2.846 ms (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  3.08 ms (1.0x), Avg.  3.08 ms, Total. 3.079 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.   919 ms (1.0x), Avg.   919 ms, Total. 919.3 ms (4.3%)
+[Performance] RestoreManagedReferences                                    :        2 samples, Peak.   140 ms (2.0x), Avg.  70.1 ms, Total. 140.2 ms (0.7%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        2 samples, Peak.   744 us (1.3x), Avg.   567 us, Total. 1.133 ms (0.0%)
+[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.   136 ms (1.0x), Avg.   136 ms, Total. 136.3 ms (0.6%)
+[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  10.6 s (1.0x), Avg.  10.6 s, Total. 10.64 s (49.5%)
+[Performance] PresetManagerPostProcessor.OnPreprocessAsset                :        2 samples, Peak.   524 us (1.1x), Avg.   487 us, Total. 973.2 us (0.0%)
+[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset           :        2 samples, Peak.   177 us (1.1x), Avg.   167 us, Total. 334.7 us (0.0%)
+[Performance] Compiling Scripts                                           :        1 samples, Peak.  7.97 s (1.0x), Avg.  7.97 s, Total. 7.971 s (37.1%)
+[Performance] AssetDatabase.ImportAssets                                  :        2 samples, Peak.   700 ns (1.0x), Avg.   700 ns, Total. 1.400 us (0.0%)
+[Performance] AssemblyPostProcessor.OnPostprocessAllAssets                :        2 samples, Peak.   473 us (1.9x), Avg.   250 us, Total. 501.0 us (0.0%)
+[Performance] AssetPostprocessor.OnPostprocessAllAssets                   :        2 samples, Peak.   227 us (2.0x), Avg.   115 us, Total. 230.5 us (0.0%)
+[Performance] TMPro_TexturePostProcessor.OnPostprocessAllAssets           :        2 samples, Peak.   491 us (1.9x), Avg.   260 us, Total. 520.4 us (0.0%)
+[Performance] RetainedMode.OnPostprocessAllAssets                         :        2 samples, Peak.   682 us (2.0x), Avg.   348 us, Total. 696.9 us (0.0%)
+[Performance] EditorAtlasMonitorInjector.OnPostprocessAllAssets           :        2 samples, Peak.   210 us (1.9x), Avg.   108 us, Total. 215.4 us (0.0%)
+[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets              :        2 samples, Peak.   473 us (2.0x), Avg.   238 us, Total. 475.8 us (0.0%)
+[Performance] AssetEvents.OnPostprocessAllAssets                          :        4 samples, Peak.   235 us (3.0x), Avg.  79.3 us, Total. 317.2 us (0.0%)
+[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets           :        2 samples, Peak.  1.27 ms (1.4x), Avg.   878 us, Total. 1.755 ms (0.0%)
+[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets            :        2 samples, Peak.  81.3 ms (2.0x), Avg.  40.6 ms, Total. 81.30 ms (0.4%)
+[Performance] BuildCatalog                                                :        1 samples, Peak.  80.1 ms (1.0x), Avg.  80.1 ms, Total. 80.08 ms (0.4%)
+[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.  59.3 ms (1.0x), Avg.  59.3 ms, Total. 59.31 ms (0.3%)
+[Performance] AssetDatabase.Refresh                                       :        1 samples, Peak.  59.2 ms (1.0x), Avg.  59.2 ms, Total. 59.20 ms (0.3%)
+[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.  98.3 ms (1.0x), Avg.  98.3 ms, Total. 98.27 ms (0.5%)
+[Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.   559 ms (1.0x), Avg.   559 ms, Total. 558.8 ms (2.6%)
+[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.  3.41 ms (1.0x), Avg.  3.41 ms, Total. 3.413 ms (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   500 ns (1.0x), Avg.   500 ns, Total. 500.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.   894 us (1.0x), Avg.   894 us, Total. 893.7 us (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.  67.9 ms (1.0x), Avg.  67.9 ms, Total. 67.93 ms (0.3%)
+[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.   362 ms (1.0x), Avg.   362 ms, Total. 362.5 ms (1.7%)
+[Performance] Gizmo.RebuildRenderers                                      :        1 samples, Peak.   224 ms (1.0x), Avg.   224 ms, Total. 224.2 ms (1.0%)
+[Performance] Gizmo.AddGizmoRenderers                                     :       34 samples, Peak.  1.81 ms (19.3x), Avg.  94.0 us, Total. 3.194 ms (0.0%)
+[Performance] Application.InitializeMenu                                  :        1 samples, Peak.  75.4 ms (1.0x), Avg.  75.4 ms, Total. 75.38 ms (0.4%)
+[Performance] UpdateAllMenus                                              :        1 samples, Peak.  66.8 ms (1.0x), Avg.  66.8 ms, Total. 66.81 ms (0.3%)
+[Performance] Application.editorInitializingProject                       :        1 samples, Peak.  40.5 us (1.0x), Avg.  40.5 us, Total. 40.50 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                     :        1 samples, Peak.  1.20 us (1.0x), Avg.  1.20 us, Total. 1.200 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  95.7 ms (1.0x), Avg.  95.7 ms, Total. 95.69 ms (0.4%)
+[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.  96.4 us (1.0x), Avg.  96.4 us, Total. 96.40 us (0.0%)
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0
