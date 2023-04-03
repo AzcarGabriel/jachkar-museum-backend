@@ -1,4 +1,4 @@
-// BuildStonePrefabs.cs
+// JachkarMuseumUtils.cs
 using UnityEngine;
 using UnityEditor;
 using System;
@@ -6,11 +6,9 @@ using System.IO;
 
 public class JachkarMuseumUtils : UnityEngine.MonoBehaviour
 {
-    static string STONE_FROM_FOLDER_PATH = "Assets/RawObjects/";
-    static string STONE_TO_FOLDER_PATH = "Assets/ProcessedObjects/";
-    static string STONE_PROCESSED_FOLDER_PATH = "Assets/ProcessedAssets/";
-    static string THUMBS_FROM_FOLDER_PATH = "Assets/RawThumbs/";
-    static string THUMBS_PROCESSED_FOLDER_PATH = "Assets/ProcessedThumbs/";
+    static string OBJECT_FROM_FOLDER_PATH = "Assets/RawObjects/";
+    static string OBJECT_TO_FOLDER_PATH = "Assets/ProcessedObjects/";
+    static string OBJECT_PROCESSED_FOLDER_PATH = "Assets/ProcessedAssets/";
     static string CONFIG_FILE = "Assets/config.json";
 
     public class Config
@@ -19,102 +17,19 @@ public class JachkarMuseumUtils : UnityEngine.MonoBehaviour
         public int actualThumbNumber;
     }
 
-    /*
-     * This function searchs in FROM_FOLDER_PATH files of type obj and create a prefab from them
-     */
-    static void ProcessStonePrefabs()
-    {
-        Console.WriteLine("PROCESS PREFABS BEGINS ------------------------------------------------------------------");
-        string[] files = Directory.GetFiles(STONE_FROM_FOLDER_PATH);
-        Config config = FileManager.Load<Config>(CONFIG_FILE);
-
-        for (int i = 0; i < files.Length; i++)
-        {
-            if (Path.GetExtension(files[i]).Contains(".obj") && !files[i].Contains(".meta"))
-            {
-                Console.WriteLine("Reading {0}", files[i]);
-                string[] filenameParts = files[i].Split('/');
-                string[] filenameParts2 = filenameParts[filenameParts.Length - 1].Split('\\');
-                string filename = filenameParts2[filenameParts2.Length - 1].Replace(".obj", "");
-                CreateStonePrefab("Stone" + config.actualStoneNumber.ToString(), filename, filename, "texture_1001");
-                config.actualStoneNumber++;
-                FileManager.Save<Config>(CONFIG_FILE, config);
-            }
-        }
-    }
-
-    static void CreateStonePrefab(string prefabName, string objName, string mtlName = null, string textureName = null)
-    {
-        Console.WriteLine("Creating {0}", objName);
-
-        if (mtlName == null)
-        {
-            mtlName = objName;
-        }
-
-        if (textureName == null)
-        {
-            textureName = objName;
-        }
-
-        // Import asset
-        var relativePath = STONE_FROM_FOLDER_PATH + objName + ".obj";
-        GameObject createdObject = AssetDatabase.LoadAssetAtPath(relativePath, typeof(GameObject)) as GameObject;
-        createdObject.AddComponent<ContureRendering>();
-        Quaternion rt = Quaternion.Euler(-90, 0, 0);
-        Vector3 sp = new Vector3(0.0f, 0.0f, 0.0f);
-        var instantiatedObject = Instantiate(createdObject, sp, rt);
-
-        // Set the path as within the Assets folder and name it as the GameObject's name with the .Prefab format
-        string localPath = STONE_TO_FOLDER_PATH + prefabName + ".prefab";
-
-        // Make sure the file name is unique, in case an existing Prefab has the same name.
-        localPath = AssetDatabase.GenerateUniqueAssetPath(localPath);
-
-        // Create the new Prefab.
-        PrefabUtility.SaveAsPrefabAssetAndConnect(instantiatedObject, localPath, InteractionMode.UserAction);
-        DestroyImmediate(instantiatedObject);
-
-        // Move the files to a processed folder
-        string[] filesNames = { objName + ".obj", mtlName + ".mtl", textureName + ".png" };
-        for (int i = 0; i < filesNames.Length; i++)
-        {
-            MoveFileToProcessed(STONE_FROM_FOLDER_PATH, STONE_PROCESSED_FOLDER_PATH, filesNames[i]);
-        }
-    }
-
-    static void ProcessThumbs()
-    {
-        Console.WriteLine("PROCESS THUMBS BEGINS ------------------------------------------------------------------");
-        string[] files = Directory.GetFiles(THUMBS_FROM_FOLDER_PATH);
-        Config config = FileManager.Load<Config>(CONFIG_FILE);
-
-        for (int i = 0; i < files.Length; i++)
-        {
-            if (!files[i].Contains(".meta"))
-            {
-                string[] filenameParts = files[i].Split('/');
-                string filename = filenameParts[filenameParts.Length - 1];
-                MoveFileToProcessed(THUMBS_FROM_FOLDER_PATH, THUMBS_PROCESSED_FOLDER_PATH, filename, filename.Replace("Stone", ""));
-                config.actualStoneNumber++;
-                FileManager.Save<Config>(CONFIG_FILE, config);
-            }
-        }
-    }
-
-    static void BuildStoneAssetBundle()
+    static void BuildObjectAssetBundle()
     {
         Console.WriteLine("PROCESS BUILD ASSET BUNDLE BEGINS -------------------------------------------------------");
 
         int i = 0;
-        string log = "BuildStoneAssetBundleDetailsLog.txt";
+        string log = "Logs/BuildObjectAssetBundle_details.txt";
         string[] assetN;
         int N_Files;
         UnityEditor.AssetBundleBuild[] AssetMap = new UnityEditor.AssetBundleBuild[2];
         AssetMap[0].assetBundleName = "bundle";
 
         // Adding to path /Models
-        string path = UnityEngine.Application.dataPath + "/Models";
+        string path = OBJECT_FROM_FOLDER_PATH;
 
         // log
         if (!File.Exists(log))
@@ -128,11 +43,11 @@ public class JachkarMuseumUtils : UnityEngine.MonoBehaviour
         DirectoryInfo dir = new System.IO.DirectoryInfo(path);
         FileInfo[] files = dir.GetFiles();
 
-        // Number of files in "/Models" folder
+        // Number of files in OBJECT_FROM_FOLDER_PATH folder
         N_Files = files.Length;
 
         // log
-        System.IO.File.AppendAllText(log, "Num assets: " + N_Files + " \n");
+        File.AppendAllText(log, "Num assets: " + N_Files + " \n");
 
         assetN = new string[N_Files];
         foreach (FileInfo file in files)
@@ -141,74 +56,21 @@ public class JachkarMuseumUtils : UnityEngine.MonoBehaviour
             {
                 if (!file.Extension.Equals(".meta"))
                 {
-                    assetN[i] = "Assets/Models/" + file.Name;
-                    System.IO.File.AppendAllText(log, assetN[i] + " \n");
+                    assetN[i] = OBJECT_FROM_FOLDER_PATH + file.Name;
+                    File.AppendAllText(log, assetN[i] + " \n");
                     i += 1;
                 }
             }
         }
         AssetMap[0].assetNames = assetN;
 
-        UnityEditor.BuildPipeline.BuildAssetBundles("Assets/AssetBundles", AssetMap, UnityEditor.BuildAssetBundleOptions.None, UnityEditor.BuildTarget.WebGL);
+        UnityEditor.BuildPipeline.BuildAssetBundles(OBJECT_PROCESSED_FOLDER_PATH, AssetMap, UnityEditor.BuildAssetBundleOptions.None, UnityEditor.BuildTarget.WebGL);
 
         // log
         File.AppendAllText(log, "\t----X----\n");
     }
 
-    static void BuildThumbsAssetBundle()
-    {
-        Console.WriteLine("PROCESS THUMBS ASSET BUNDLE BEGINS -------------------------------------------------------");
-
-        int i = 0;
-        string log = "BuildThumbsAssetBundleDetailsLog.txt";
-        string[] assetN;
-        int N_Files;
-        UnityEditor.AssetBundleBuild[] AssetMap = new UnityEditor.AssetBundleBuild[2];
-        AssetMap[0].assetBundleName = "stones_thumbs";
-
-        // Adding to path /Models
-        string path = UnityEngine.Application.dataPath + "/ProcessedThumbs";
-
-        // log
-        //if (!File.Exists(log))
-        //{
-        //   File.Create(log);
-        //}
-
-        //File.AppendAllText(log, DateTime.Now.ToString() + "\n\n");
-        //File.AppendAllText(log, path + "\n");
-
-        DirectoryInfo dir = new DirectoryInfo(path);
-        FileInfo[] files = dir.GetFiles();
-
-        // Number of files in "/ProcessedThumbs" folder
-        N_Files = files.Length;
-
-        // log
-        //File.AppendAllText(log, "Num assets: " + N_Files + " \n");
-
-        assetN = new string[N_Files];
-        foreach (FileInfo file in files)
-        {
-            if (file.Exists)
-            {
-                if (!file.Extension.Equals(".meta"))
-                {
-                    assetN[i] = "Assets/ProcessedThumbs/" + file.Name;
-                    //File.AppendAllText(log, assetN[i] + " \n");
-                    i += 1;
-                }
-            }
-        }
-        AssetMap[0].assetNames = assetN;
-
-        UnityEditor.BuildPipeline.BuildAssetBundles("Assets/AssetBundles", AssetMap, UnityEditor.BuildAssetBundleOptions.None, UnityEditor.BuildTarget.WebGL);
-
-        // log
-        //File.AppendAllText(log, "\t----X----\n");
-    }
-
-    static void MoveFileToProcessed(string fromFolder, string destinationFolder, string filename, string destinationName = null)
+    static void MoveFile(string fromFolder, string destinationFolder, string filename, string destinationName = null)
     {
         try
         {
